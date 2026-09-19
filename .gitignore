@@ -1,0 +1,17 @@
+# .gitignore — studybuddy-ChinaTextbook
+# 原则：只版本化"可再生的获取工具与清单"，真实学习资料与密钥只存本地。
+
+# 真实学习资料（PDF/音频体积大，超 GitHub 单文件 100MB 限制，仅存本地）
+小学教材/
+基础性作业/
+*.pdf
+*.mp3
+*.wav
+
+# 密钥永不入库
+智慧教育token.txt
+
+# 系统杂项
+Thumbs.db
+desktop.ini
+__pycache__/
